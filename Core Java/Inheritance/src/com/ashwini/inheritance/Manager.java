@@ -2,6 +2,7 @@ package com.ashwini.inheritance;
 
 public class Manager extends Employee {
 	String[] projects;
+	//double salary;
 	public Manager(int id, String name, String department, double salary,String[] projects) {
 		super(id, name, department, salary);
 		this.projects = projects;
