@@ -1,8 +1,6 @@
 package com.emc.entities;
 
-public class Participant {
-	public long id;
-	public String name;
+public class Participant extends embase {
 	public String email;
 	public boolean checkedin;
 }

@@ -1,8 +1,6 @@
 package com.emc.entities;
 
-public class Event {
-	public long id;
-	public String name;
+public class Event extends embase{
 	public String description;
 	public String starttime;
 	public String endtime;
